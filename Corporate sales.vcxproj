@@ -145,6 +145,10 @@
   <ItemGroup>
     <ClInclude Include="DivSales.H" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Downloads\Corporate_Sales_Monthly_Test_Data.txt" />
+    <Text Include="..\..\..\Downloads\Corporate_Sales_Quarterly_Test_Data.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
