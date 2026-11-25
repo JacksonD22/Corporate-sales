@@ -14,5 +14,16 @@ int main() {
 	cin >> filename;
 
 	ifstream inputFile(filename);
+	if (!inputFile) {
+		cout << "ERROR, file doesnt exixst";
+		return 1;
+	}
 	inputFile >> numberOfPeriods;
+	if (inputFile.fail() || numberOfPeriods <= 0) {
+		cout << "ERROR, number of periods is invalid"; \
+			return 1;
+	}
+
+	 
+
 }
