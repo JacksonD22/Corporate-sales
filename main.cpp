@@ -61,10 +61,10 @@ int main() {
 	}
 
 	for (int division = 0; division < NUM_DIVISIONS; division++) {
-		cout << "Division total:" << (division + 1) << "$" << divisions[division].getDivisionTotal() << endl;
+		cout << "Division total " << (division + 1) << ": $" << divisions[division].getDivisionTotal() << endl;
 	}
 
-	cout << "Corporate total: " << DivSales::getCorporateTotal() << endl;
+	cout << "Corporate total: $" << DivSales::getCorporateTotal() << endl;
 
 	//Copy constructor
 	DivSales copy1 = divisions[0];
